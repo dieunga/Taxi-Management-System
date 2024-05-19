@@ -1,0 +1,4 @@
+C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementAssignment\obj\Debug\net8.0\TaxiManagementAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementAssignment\obj\Debug\net8.0\TaxiManagementAssignment.AssemblyInfoInputs.cache
+C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementAssignment\obj\Debug\net8.0\TaxiManagementAssignment.AssemblyInfo.cs
+C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementAssignment\obj\Debug\net8.0\TaxiManagementAssignment.csproj.CoreCompileInputs.cache

@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj",
+        "projectName": "TaxiManagementAssignment",
+        "projectPath": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj",
+        "projectName": "TaxiManagementTests",
+        "projectPath": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj": {
+                "projectPath": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
