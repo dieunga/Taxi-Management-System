@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace TaxiManagementAssignment
 {
-    internal class Rank
+    public class Rank
     {
-        private int ID;
-        private int NumberOfTaxiSpaces;
-        private List<Taxi> TaxiSpaces;
+        private int iD;
+        private int numberOfTaxiSpaces;
+        private List<Taxi> taxiSpaces;
     }
-
+    public 
     public Rank(int rankID, int numberOfTaxiSpaces)
     {
 

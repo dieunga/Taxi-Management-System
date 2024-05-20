@@ -206,3 +206,6 @@ C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiMan
 C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementTests\obj\Debug\net7.0\TaxiManagementTests.pdb
 C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementTests\obj\Debug\net7.0\TaxiManagementTests.genruntimeconfig.cache
 C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementTests\obj\Debug\net7.0\ref\TaxiManagementTests.dll
+C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementTests\obj\Debug\net7.0\TaxiManagementTests.dll
+C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementTests\obj\Debug\net7.0\refint\TaxiManagementTests.dll
+C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementTests\obj\Debug\net7.0\TaxiManagementTests.pdb
