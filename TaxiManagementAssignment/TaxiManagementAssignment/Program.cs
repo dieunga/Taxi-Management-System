@@ -1,16 +1,22 @@
 ﻿using System;
 
-namespace TaxiManagement
+public class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("\n\tWrite your Taxi Management application in this project." +
-                "\n\n\tFollow the instructions in the assignment specification." +
-                "\n\n\tREMEMBER: do not change any of the code in the tests project." +
-                "\n\n\tYou can delete the code in the Main() method.\n\n");
-        }
-    }
+        RankManager rankMgr = new RankManager();
+        TaxiManager taxiMgr = new TaxiManager();
+        TransactionManager transactionMgr = new TransactionManager();
+        UserUI ui = new UserUI(rankMgr, taxiMgr, transactionMgr);
 
+        // Simulate some operations
+        ui.TaxiJoinsRank(1, 101);
+        ui.TaxiJoinsRank(2, 101);
+        ui.TaxiLeavesRank(101, "Downtown", 20.0);
+        ui.TaxiDropsFare(1, true);
+
+        Console.WriteLine(string.Join("\n", ui.ViewFinancialReport()));
+        Console.WriteLine(string.Join("\n", ui.ViewTaxiLocations()));
+        Console.WriteLine(string.Join("\n", ui.ViewTransactionLog()));
+    }
 }

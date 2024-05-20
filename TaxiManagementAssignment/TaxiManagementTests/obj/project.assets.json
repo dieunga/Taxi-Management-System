@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net7.0": {
       "coverlet.collector/3.0.2": {
         "type": "package",
         "build": {
@@ -1791,7 +1791,7 @@
       },
       "TaxiManagementAssignment/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": "Unsupported,Version=v0.0",
         "compile": {
           "bin/placeholder/TaxiManagementAssignment.dll": {}
         },
@@ -6249,7 +6249,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net7.0": [
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
@@ -6263,29 +6263,29 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj",
       "projectName": "TaxiManagementTests",
-      "projectPath": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj",
+      "projectPath": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementTests\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj": {
-              "projectPath": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj"
+            "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj": {
+              "projectPath": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj"
             }
           }
         }
@@ -6302,8 +6302,8 @@
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "MSTest.TestAdapter": {
             "target": "Package",
@@ -6338,8 +6338,19 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project TaxiManagementAssignment is not compatible with net7.0 (.NETCoreApp,Version=v7.0). Project TaxiManagementAssignment supports: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "TaxiManagementAssignment",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
