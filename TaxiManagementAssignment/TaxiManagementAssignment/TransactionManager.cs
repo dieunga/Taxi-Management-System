@@ -1,27 +1,30 @@
 ﻿using System.Collections.Generic;
 using System;
 
-public class TransactionManager
+namespace TaxiManagementAssignment
 {
-    private List<Transaction> transactions = new List<Transaction>();
-
-    public void RecordDrop(int taxiNum, bool pricePaid)
+    public class TransactionManager
     {
-        transactions.Add(new DropTransaction(DateTime.Now, taxiNum, pricePaid));
-    }
+        private List<Transaction> transactions = new List<Transaction>();
 
-    public void RecordJoin(int taxiNum, int rankId)
-    {
-        transactions.Add(new JoinTransaction(DateTime.Now, taxiNum, rankId));
-    }
+        public void RecordDrop(int taxiNum, bool pricePaid)
+        {
+            transactions.Add(new DropTransaction(DateTime.Now, taxiNum, pricePaid));
+        }
 
-    public void RecordLeave(int rankId, Taxi taxi)
-    {
-        transactions.Add(new LeaveTransaction(DateTime.Now, rankId, taxi));
-    }
+        public void RecordJoin(int taxiNum, int rankId)
+        {
+            transactions.Add(new JoinTransaction(DateTime.Now, taxiNum, rankId));
+        }
 
-    public List<Transaction> GetAllTransactions()
-    {
-        return transactions;
+        public void RecordLeave(int rankId, Taxi taxi)
+        {
+            transactions.Add(new LeaveTransaction(DateTime.Now, rankId, taxi));
+        }
+
+        public List<Transaction> GetAllTransactions()
+        {
+            return transactions;
+        }
     }
 }

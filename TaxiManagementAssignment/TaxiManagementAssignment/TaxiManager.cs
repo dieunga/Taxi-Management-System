@@ -3,29 +3,32 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-public class TaxiManager
+namespace TaxiManagementAssignment
 {
-    private SortedDictionary<int, Taxi> taxis = new SortedDictionary<int, Taxi>();
-
-    public Taxi CreateTaxi(int taxiNum)
+    public class TaxiManager
     {
-        if (!taxis.ContainsKey(taxiNum))
+        private SortedDictionary<int, Taxi> taxis = new SortedDictionary<int, Taxi>();
+
+        public Taxi CreateTaxi(int taxiNum)
         {
-            Taxi newTaxi = new Taxi(taxiNum);
-            taxis.Add(taxiNum, newTaxi);
-            return newTaxi;
+            if (!taxis.ContainsKey(taxiNum))
+            {
+                Taxi newTaxi = new Taxi(taxiNum);
+                taxis.Add(taxiNum, newTaxi);
+                return newTaxi;
+            }
+            return taxis[taxiNum];
         }
-        return taxis[taxiNum];
-    }
 
-    public Taxi FindTaxi(int taxiNum)
-    {
-        taxis.TryGetValue(taxiNum, out Taxi taxi);
-        return taxi;
-    }
+        public Taxi FindTaxi(int taxiNum)
+        {
+            taxis.TryGetValue(taxiNum, out Taxi taxi);
+            return taxi;
+        }
 
-    public SortedDictionary<int, Taxi> GetAllTaxis()
-    {
-        return taxis;
+        public SortedDictionary<int, Taxi> GetAllTaxis()
+        {
+            return taxis;
+        }
     }
 }

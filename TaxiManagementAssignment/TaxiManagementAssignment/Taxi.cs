@@ -3,38 +3,81 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-
-public class Taxi
+namespace TaxiManagementAssignment
 {
-    public int Number { get; private set; }
-    public double CurrentFare { get; private set; }
-    public string Destination { get; private set; } = "";
-    public string Location { get; private set; } = ON_ROAD;
-    public double TotalMoneyPaid { get; private set; } = 0;
-    public Rank rank { get { return Rank; } set { if (value == null) { throw new Exception("Rank cannot be null"); } else Rank = value; } }
-
-    public const string IN_RANK = "in rank";
-    public const string ON_ROAD = "on the road";
-
-    public Taxi(int taxiNum)
+    public class Taxi
     {
-        Number = taxiNum;
-    }
+        private int number;
+        public static string IN_RANK = "in rank";
+        public static string ON_ROAD = "on the road";
+        private double currentFare;
+        private string destination;
+        private string location;
+        private Rank rank;
+        private double totalMoneyPaid;
 
-    public void AddFare(string destination, double agreedPrice)
-    {
-        Destination = destination;
-        CurrentFare = agreedPrice;
-    }
-
-    public void DropFare(bool priceWasPaid)
-    {
-        if (priceWasPaid)
+        public Rank Rank
         {
-            TotalMoneyPaid += CurrentFare;
+            get
+            {
+                return rank;
+            }
+            set
+            {
+                if (value == null)
+                {
+                    throw new Exception("Rank cannot be null");
+                }
+                if (!string.IsNullOrEmpty(Destination))
+                {
+                    throw new Exception("Cannot join rank if fare has not been dropped");
+                }
+                rank = value;
+                location = IN_RANK;
+            }
         }
-        Destination = "";
-        CurrentFare = 0;
-        Location = ON_ROAD;
+        public int Number { get { return number; } }
+        public double CurrentFare { get { return currentFare; } }
+        public string Destination { get { return destination; } }
+        public string Location { get { return location; } }
+        public double TotalMoneyPaid { get { return totalMoneyPaid; } }
+
+        public Taxi(int num)
+        {
+            number = num;
+            currentFare = 0;
+            destination = string.Empty;
+            location = ON_ROAD;
+            rank = null;
+            totalMoneyPaid = 0;
+        }
+
+        public void AddFare(string destination, double agreedPrice)
+        {
+            this.destination = destination;
+            currentFare = agreedPrice;
+            rank = null;
+
+        }
+
+        public void DropFare(bool priceWasPaid)
+        {
+            if (priceWasPaid)
+            {
+                totalMoneyPaid += currentFare;
+            }
+            destination = "";
+            currentFare = 0;
+        }
+
+        public double GetCurrentFare() { return currentFare; }
+        public string GetDestination() { return destination; }
+        public string GetLocation() { return location; }
+        public double GetTotalMoneyPaid() { return totalMoneyPaid; }
+        public Rank GetRank() { return rank; }
+        public void SetRank(Rank rank) { this.rank = rank; }
+        public int GetNumber() { return number; }
+
     }
 }
+

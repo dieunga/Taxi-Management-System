@@ -3,8 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementtests\\_05_rankmanager_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|solutionrelative:taximanagementtests\\_05_rankmanager_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementassignment\\rankmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|solutionrelative:taximanagementassignment\\rankmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementassignment\\rank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|solutionrelative:taximanagementassignment\\rank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementassignment\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|solutionrelative:taximanagementassignment\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementassignment\\taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|solutionrelative:taximanagementassignment\\taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementtests\\_06_transactionmanager_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|solutionrelative:taximanagementtests\\_06_transactionmanager_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementtests\\_07_userui_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|solutionrelative:taximanagementtests\\_07_userui_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementtests\\_03_transaction_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|solutionrelative:taximanagementtests\\_03_transaction_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementtests\\_02_rank_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|solutionrelative:taximanagementtests\\_02_rank_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementtests\\_01_taxi_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|solutionrelative:taximanagementtests\\_01_taxi_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementtests\\_04_taximanager_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|solutionrelative:taximanagementtests\\_04_taximanager_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementassignment\\userui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|solutionrelative:taximanagementassignment\\userui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementassignment\\transactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|solutionrelative:taximanagementassignment\\transactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementassignment\\taximanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|solutionrelative:taximanagementassignment\\taximanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|solutionrelative:taximanagementassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementtests\\taximanagementtests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}",
+      "RelativeMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|solutionrelative:taximanagementtests\\taximanagementtests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementassignment\\taximanagementassignment.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}",
@@ -13,69 +73,175 @@
     {
       "AbsoluteMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementtests\\taximanagementtests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|solutionrelative:taximanagementtests\\taximanagementtests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementassignment\\rank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40B52E4E-5950-47B9-99AA-08A2363447E2}|TaxiManagementAssignment\\TaxiManagementAssignment.csproj|solutionrelative:taximanagementassignment\\rank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementtests\\_01_taxi_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|solutionrelative:taximanagementtests\\_01_taxi_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|c:\\users\\dell\\onedrive - buv.edu.vn\\year 1\\sem2\\taximanagementassignment\\taximanagementassignment\\taximanagementtests\\taximanagementtests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}",
-      "RelativeMoniker": "D:0:0:{B9A97D29-D358-4548-B8D3-4D52731293D5}|TaxiManagementTests\\TaxiManagementTests.csproj|solutionrelative:taximanagementtests\\taximanagementtests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "DockedHeight": 206,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Rank.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\Rank.cs",
-              "RelativeDocumentMoniker": "TaxiManagementAssignment\\Rank.cs",
-              "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\Rank.cs",
-              "RelativeToolTip": "TaxiManagementAssignment\\Rank.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "_03_Transaction_Tests.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\_03_Transaction_Tests.cs",
+              "RelativeDocumentMoniker": "TaxiManagementTests\\_03_Transaction_Tests.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\_03_Transaction_Tests.cs",
+              "RelativeToolTip": "TaxiManagementTests\\_03_Transaction_Tests.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAA7wFEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T08:08:28.289Z",
+              "WhenOpened": "2024-05-21T09:48:18.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_06_TransactionManager_Tests.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\_06_TransactionManager_Tests.cs",
+              "RelativeDocumentMoniker": "TaxiManagementTests\\_06_TransactionManager_Tests.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\_06_TransactionManager_Tests.cs",
+              "RelativeToolTip": "TaxiManagementTests\\_06_TransactionManager_Tests.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAkwCUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:58:46.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_05_RankManager_Tests.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\_05_RankManager_Tests.cs",
+              "RelativeDocumentMoniker": "TaxiManagementTests\\_05_RankManager_Tests.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\_05_RankManager_Tests.cs",
+              "RelativeToolTip": "TaxiManagementTests\\_05_RankManager_Tests.cs",
+              "ViewState": "AQIAAG4AAADAmJmZmZkhwGwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T07:48:14.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "_07_UserUI_Tests.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\_07_UserUI_Tests.cs",
+              "RelativeDocumentMoniker": "TaxiManagementTests\\_07_UserUI_Tests.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\_07_UserUI_Tests.cs",
+              "RelativeToolTip": "TaxiManagementTests\\_07_UserUI_Tests.cs",
+              "ViewState": "AQIAABsCAAAA9////78jwBADAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:58:54.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "_01_Taxi_Tests.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\_01_Taxi_Tests.cs",
               "RelativeDocumentMoniker": "TaxiManagementTests\\_01_Taxi_Tests.cs",
               "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\_01_Taxi_Tests.cs",
               "RelativeToolTip": "TaxiManagementTests\\_01_Taxi_Tests.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAnAAAA",
+              "ViewState": "AQIAAIQAAACAk5mZmdkkwE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T03:22:37.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "_02_Rank_Tests.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\_02_Rank_Tests.cs",
+              "RelativeDocumentMoniker": "TaxiManagementTests\\_02_Rank_Tests.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\_02_Rank_Tests.cs",
+              "RelativeToolTip": "TaxiManagementTests\\_02_Rank_Tests.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:48:07.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_04_TaxiManager_Tests.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\_04_TaxiManager_Tests.cs",
+              "RelativeDocumentMoniker": "TaxiManagementTests\\_04_TaxiManager_Tests.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\_04_TaxiManager_Tests.cs",
+              "RelativeToolTip": "TaxiManagementTests\\_04_TaxiManager_Tests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:58:18.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserUI.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\UserUI.cs",
+              "RelativeDocumentMoniker": "TaxiManagementAssignment\\UserUI.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\UserUI.cs",
+              "RelativeToolTip": "TaxiManagementAssignment\\UserUI.cs",
+              "ViewState": "AQIAADgAAAAAoMzMzMz+vx8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T15:26:48.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TransactionManager.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TransactionManager.cs",
+              "RelativeDocumentMoniker": "TaxiManagementAssignment\\TransactionManager.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TransactionManager.cs",
+              "RelativeToolTip": "TaxiManagementAssignment\\TransactionManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:29:10.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TaxiManager.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManager.cs",
+              "RelativeDocumentMoniker": "TaxiManagementAssignment\\TaxiManager.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManager.cs",
+              "RelativeToolTip": "TaxiManagementAssignment\\TaxiManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T07:37:15.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\Program.cs",
+              "RelativeDocumentMoniker": "TaxiManagementAssignment\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\Program.cs",
+              "RelativeToolTip": "TaxiManagementAssignment\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:28:19.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TaxiManagementTests",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj",
+              "RelativeDocumentMoniker": "TaxiManagementTests\\TaxiManagementTests.csproj",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj",
+              "RelativeToolTip": "TaxiManagementTests\\TaxiManagementTests.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-18T03:22:37.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "TaxiManagementAssignment",
               "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj",
               "RelativeDocumentMoniker": "TaxiManagementAssignment\\TaxiManagementAssignment.csproj",
               "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj",
               "RelativeToolTip": "TaxiManagementAssignment\\TaxiManagementAssignment.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-18T03:22:37.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T03:22:37.182Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
               "Title": "TaxiManagementTests.csproj",
               "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj",
               "RelativeDocumentMoniker": "TaxiManagementTests\\TaxiManagementTests.csproj",
@@ -83,33 +249,62 @@
               "RelativeToolTip": "TaxiManagementTests\\TaxiManagementTests.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-18T03:22:37.19Z",
+              "WhenOpened": "2024-05-18T03:22:37.19Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 194,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RankManager.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\RankManager.cs",
+              "RelativeDocumentMoniker": "TaxiManagementAssignment\\RankManager.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\RankManager.cs",
+              "RelativeToolTip": "TaxiManagementAssignment\\RankManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:27:30.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\Transaction.cs",
+              "RelativeDocumentMoniker": "TaxiManagementAssignment\\Transaction.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\Transaction.cs",
+              "RelativeToolTip": "TaxiManagementAssignment\\Transaction.cs",
+              "ViewState": "AQIAACIAAADAYmZmZmYmwFIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T15:36:16.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rank.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\Rank.cs",
+              "RelativeDocumentMoniker": "TaxiManagementAssignment\\Rank.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\Rank.cs",
+              "RelativeToolTip": "TaxiManagementAssignment\\Rank.cs",
+              "ViewState": "AQIAAAUAAABQAwAAAMAmwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T08:08:28.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Taxi.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\Taxi.cs",
               "RelativeDocumentMoniker": "TaxiManagementAssignment\\Taxi.cs",
               "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\Taxi.cs",
               "RelativeToolTip": "TaxiManagementAssignment\\Taxi.cs",
-              "ViewState": "AQIAAEQAAACAMzMzMzMXwFIAAAABAAAA",
+              "ViewState": "AQIAAE4AAACAKjMzMzMjwEYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T03:22:37.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TaxiManagementTests",
-              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj",
-              "RelativeDocumentMoniker": "TaxiManagementTests\\TaxiManagementTests.csproj",
-              "ToolTip": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj",
-              "RelativeToolTip": "TaxiManagementTests\\TaxiManagementTests.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-18T03:22:37.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T03:22:37.199Z"
             }
           ]
         }

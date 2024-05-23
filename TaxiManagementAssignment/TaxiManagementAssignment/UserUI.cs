@@ -1,77 +1,82 @@
 ﻿using System.Collections.Generic;
+using System.Linq; // Add this line to use LINQ methods
 
-public class UserUI
+namespace TaxiManagementAssignment
 {
-    private RankManager rankMgr;
-    private TaxiManager taxiMgr;
-    private TransactionManager transactionMgr;
-
-    public UserUI(RankManager rkMgr, TaxiManager txMgr, TransactionManager trMgr)
+    public class UserUI
     {
-        rankMgr = rkMgr;
-        taxiMgr = txMgr;
-        transactionMgr = trMgr;
-    }
+        private RankManager rankMgr;
+        private TaxiManager taxiMgr;
+        private TransactionManager transactionMgr;
 
-    public List<string> TaxiDropsFare(int taxiNum, bool pricePaid)
-    {
-        Taxi taxi = taxiMgr.FindTaxi(taxiNum);
-        if (taxi != null && taxi.Location == Taxi.ON_ROAD && !string.IsNullOrEmpty(taxi.Destination))
+        public UserUI(RankManager rkMgr, TaxiManager txMgr, TransactionManager trMgr)
         {
-            taxi.DropFare(pricePaid);
-            transactionMgr.RecordDrop(taxiNum, pricePaid);
-            return new List<string> { "Fare dropped successfully." };
+            rankMgr = rkMgr;
+            taxiMgr = txMgr;
+            transactionMgr = trMgr;
         }
-        return new List<string> { "Taxi not found or not on road or no destination." };
-    }
 
-    public List<string> TaxiJoinsRank(int taxiNum, int rankId)
-    {
-        Taxi taxi = taxiMgr.FindTaxi(taxiNum);
-        if (taxi == null)
+        public List<string> TaxiDropsFare(int taxiNum, bool pricePaid)
         {
-            taxi = taxiMgr.CreateTaxi(taxiNum);
+            Taxi taxi = taxiMgr.FindTaxi(taxiNum);
+            if (taxi != null && taxi.Location == Taxi.ON_ROAD && !string.IsNullOrEmpty(taxi.Destination))
+            {
+                taxi.DropFare(pricePaid);
+                transactionMgr.RecordDrop(taxiNum, pricePaid);
+                return new List<string> { "Fare dropped successfully." };
+            }
+            return new List<string> { "Taxi not found or not on road or no destination." };
         }
-        if (rankMgr.AddTaxiToRank(taxi, rankId))
+
+        public List<string> TaxiJoinsRank(int taxiNum, int rankId)
         {
-            transactionMgr.RecordJoin(taxiNum, rankId);
-            return new List<string> { "Taxi joined rank successfully." };
+            Taxi taxi = taxiMgr.FindTaxi(taxiNum);
+            if (taxi == null)
+            {
+                taxi = taxiMgr.CreateTaxi(taxiNum);
+            }
+            if (rankMgr.AddTaxiToRank(taxi, rankId))
+            {
+                transactionMgr.RecordJoin(taxiNum, rankId);
+                return new List<string> { "Taxi joined rank successfully." };
+            }
+            return new List<string> { "Failed to join rank. Rank might be full." };
         }
-        return new List<string> { "Failed to join rank. Rank might be full." };
-    }
 
-    public List<string> TaxiLeavesRank(int rankId, string destination, double agreedPrice)
-    {
-        Taxi taxi = rankMgr.FrontTaxiInRankTakesFare(rankId, destination, agreedPrice);
-        if (taxi != null)
+        public List<string> TaxiLeavesRank(int rankId, string destination, double agreedPrice)
         {
-            transactionMgr.RecordLeave(rankId, taxi);
-            return new List<string> { "Taxi left rank successfully." };
+            Taxi taxi = rankMgr.FrontTaxiInRankTakesFare(rankId, destination, agreedPrice);
+            if (taxi != null)
+            {
+                transactionMgr.RecordLeave(rankId, taxi);
+                return new List<string> { "Taxi left rank successfully." };
+            }
+            return new List<string> { "Failed to leave rank. Rank might be empty." };
         }
-        return new List<string> { "Failed to leave rank. Rank might be empty." };
-    }
 
-    public List<string> ViewFinancialReport()
-    {
-        var taxis = taxiMgr.GetAllTaxis();
-        double total = taxis.Values.Sum(t => t.GetTotalMoneyPaid());
-        return new List<string> { $"Total money paid to all taxis: {total}" };
-    }
-
-    public List<string> ViewTaxiLocations()
-    {
-        var taxis = taxiMgr.GetAllTaxis();
-        var results = new List<string>();
-        foreach (var taxi in taxis.Values)
+        public List<string> ViewFinancialReport()
         {
-            results.Add($"Taxi {taxi.GetNumber()} is {taxi.GetLocation()} with destination {taxi.GetDestination()}");
+            var taxis = taxiMgr.GetAllTaxis();
+            double total = taxis.Values.Sum(t => t.GetTotalMoneyPaid());
+            return new List<string> { $"Total money paid to all taxis: {total}" };
         }
-        return results;
+
+        public List<string> ViewTaxiLocations()
+        {
+            var taxis = taxiMgr.GetAllTaxis();
+            var results = new List<string>();
+            foreach (var taxi in taxis.Values)
+            {
+                results.Add($"Taxi {taxi.GetNumber()} is {taxi.GetLocation()} with destination {taxi.GetDestination()}");
+            }
+            return results;
+        }
+
+        public List<string> ViewTransactionLog()
+        {
+            var transactions = transactionMgr.GetAllTransactions();
+            return transactions.Select(t => t.ToString()).ToList();
+        }
     }
 
-    public List<string> ViewTransactionLog()
-    {
-        var transactions = transactionMgr.GetAllTransactions();
-        return transactions.Select(t => t.ToString()).ToList();
-    }
 }

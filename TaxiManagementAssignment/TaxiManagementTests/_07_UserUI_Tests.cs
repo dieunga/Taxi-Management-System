@@ -11,76 +11,76 @@ namespace TaxiManagementTests
          * Uncomment from line 14
          */
 
-        //[TestMethod]
-        //public void _01_TaxiJoinsRank_TaxiAddedToRankWhenExistingTaxiJoinsExistingRank()
-        //{
-        //    RankManager rm = new RankManager();
-        //    TaxiManager txm = new TaxiManager();
-        //    TransactionManager trm = new TransactionManager();
-        //    UserUI ui = new UserUI(rm, txm, trm);
-        //    Taxi t = txm.CreateTaxi(14);
+        [TestMethod]
+        public void _01_TaxiJoinsRank_TaxiAddedToRankWhenExistingTaxiJoinsExistingRank()
+        {
+            RankManager rm = new RankManager();
+            TaxiManager txm = new TaxiManager();
+            TransactionManager trm = new TransactionManager();
+            UserUI ui = new UserUI(rm, txm, trm);
+            Taxi t = txm.CreateTaxi(14);
 
-        //    ui.TaxiJoinsRank(14, 1);
-        //    Assert.AreEqual(14, rm.FindRank(1).FrontTaxiTakesFare("Nowhere", 1.23).Number);
-        //}
+            ui.TaxiJoinsRank(14, 1);
+            Assert.AreEqual(14, rm.FindRank(1).FrontTaxiTakesFare("Nowhere", 1.23).Number);
+        }
 
-        //[TestMethod]
-        //public void _02_TaxiJoinsRank_TaxiCreatedWhenTaxiNumberNotAlreadyInUse()
-        //{
-        //    RankManager rm = new RankManager();
-        //    TaxiManager txm = new TaxiManager();
-        //    TransactionManager trm = new TransactionManager();
-        //    UserUI ui = new UserUI(rm, txm, trm);
+        [TestMethod]
+        public void _02_TaxiJoinsRank_TaxiCreatedWhenTaxiNumberNotAlreadyInUse()
+        {
+            RankManager rm = new RankManager();
+            TaxiManager txm = new TaxiManager();
+            TransactionManager trm = new TransactionManager();
+            UserUI ui = new UserUI(rm, txm, trm);
 
-        //    ui.TaxiJoinsRank(12, 1);
-        //    Assert.IsNotNull(txm.FindTaxi(12));
-        //}
+            ui.TaxiJoinsRank(12, 1);
+            Assert.IsNotNull(txm.FindTaxi(12));
+        }
 
-        //[TestMethod]
-        //public void _03_TaxiJoinsRank_TaxiAddedToRankWhenNonexistantTaxiJoinsExistingRank()
-        //{
-        //    RankManager rm = new RankManager();
-        //    TaxiManager txm = new TaxiManager();
-        //    TransactionManager trm = new TransactionManager();
-        //    UserUI ui = new UserUI(rm, txm, trm);
+        [TestMethod]
+        public void _03_TaxiJoinsRank_TaxiAddedToRankWhenNonexistantTaxiJoinsExistingRank()
+        {
+            RankManager rm = new RankManager();
+            TaxiManager txm = new TaxiManager();
+            TransactionManager trm = new TransactionManager();
+            UserUI ui = new UserUI(rm, txm, trm);
 
-        //    ui.TaxiJoinsRank(12, 1);
-        //    Assert.AreEqual(12, rm.FindRank(1).FrontTaxiTakesFare("Nowhere", 1.23).Number);
-        //}
+            ui.TaxiJoinsRank(12, 1);
+            Assert.AreEqual(12, rm.FindRank(1).FrontTaxiTakesFare("Nowhere", 1.23).Number);
+        }
 
-        //[TestMethod]
-        //public void _04_TaxiJoinsRankReturnsCorrectMessageWhenTaxiJoinsRank()
-        //{
-        //    RankManager rm = new RankManager();
-        //    TaxiManager txm = new TaxiManager();
-        //    TransactionManager trm = new TransactionManager();
-        //    UserUI ui = new UserUI(rm, txm, trm);
+        [TestMethod]
+        public void _04_TaxiJoinsRankReturnsCorrectMessageWhenTaxiJoinsRank()
+        {
+            RankManager rm = new RankManager();
+            TaxiManager txm = new TaxiManager();
+            TransactionManager trm = new TransactionManager();
+            UserUI ui = new UserUI(rm, txm, trm);
 
-        //    List<string> expectedLines = new List<string>();
-        //    expectedLines.Add("Taxi 17 has joined rank 3.");
+            List<string> expectedLines = new List<string>();
+            expectedLines.Add("Taxi 17 has joined rank 3.");
 
-        //    CollectionAssert.AreEqual(
-        //        expectedLines,
-        //        ui.TaxiJoinsRank(17, 3));
-        //}
+            CollectionAssert.AreEqual(
+                expectedLines,
+                ui.TaxiJoinsRank(17, 3));
+        }
 
-        //[TestMethod]
-        //public void _05_TaxiJoinsRankReturnsCorrectMessageWhenTaxiDoesNotJoinRank()
-        //{
-        //    RankManager rm = new RankManager();
-        //    TaxiManager txm = new TaxiManager();
-        //    TransactionManager trm = new TransactionManager();
-        //    UserUI ui = new UserUI(rm, txm, trm);
-        //    Taxi t = txm.CreateTaxi(19);
-        //    rm.AddTaxiToRank(t, 3);
+        [TestMethod]
+        public void _05_TaxiJoinsRankReturnsCorrectMessageWhenTaxiDoesNotJoinRank()
+        {
+            RankManager rm = new RankManager();
+            TaxiManager txm = new TaxiManager();
+            TransactionManager trm = new TransactionManager();
+            UserUI ui = new UserUI(rm, txm, trm);
+            Taxi t = txm.CreateTaxi(19);
+            rm.AddTaxiToRank(t, 3);
 
-        //    List<string> expectedLines = new List<string>();
-        //    expectedLines.Add("Taxi 19 has not joined rank 1.");
+            List<string> expectedLines = new List<string>();
+            expectedLines.Add("Taxi 19 has not joined rank 1.");
 
-        //    CollectionAssert.AreEqual(
-        //        expectedLines,
-        //        ui.TaxiJoinsRank(19, 1));
-        //}
+            CollectionAssert.AreEqual(
+                expectedLines,
+                ui.TaxiJoinsRank(19, 1));
+        }
 
         //[TestMethod]
         //public void _06_JoinTransactionCreatedWhenTaxiJoinsRank()

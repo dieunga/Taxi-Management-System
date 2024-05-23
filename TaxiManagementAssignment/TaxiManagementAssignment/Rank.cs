@@ -1,37 +1,46 @@
 ﻿using System.Collections.Generic;
 
-public class Rank
+namespace TaxiManagementAssignment
 {
-    public int Id { get; private set; }
-    public int NumberOfTaxiSpaces 
-    public List<Taxi> TaxiSpace 
-
-    public Rank(int rankId, int numberOfTaxiSpaces)
+    public class Rank
     {
-        Id = rankId;
-        NumberOfTaxiSpaces = numberOfTaxiSpaces;
-        TaxiSpace = new List<Taxi>();
-    }
+        private int id;
+        private int numberOfTaxiSpaces;
+        private List<Taxi> taxiSpace;
 
-    public bool AddTaxi(Taxi taxi)
-    {
-        if (TaxiSpace.Count < NumberOfTaxiSpaces)
+        public int Id { get { return id; } }
+        public int NumberOfTaxiSpaces { get { return numberOfTaxiSpaces; } }
+        public List<Taxi> TaxiSpace { get { return taxiSpace; } }
+
+        public Rank(int rankId, int numberOfTaxiSpaces)
         {
-            TaxiSpace.Add(taxi);
-            return true;
+            id = rankId;
+            this.numberOfTaxiSpaces = numberOfTaxiSpaces;
+            taxiSpace = new List<Taxi>();
         }
-        return false;
+
+        public bool AddTaxi(Taxi taxi)
+        {
+            if (taxiSpace.Count < numberOfTaxiSpaces)
+            {
+                taxiSpace.Add(taxi);
+                taxi.Rank = this;
+                return true;
+            }
+            return false;
+        }
+
+        public Taxi FrontTaxiTakesFare(string destination, double agreedPrice)
+        {
+            if (taxiSpace.Count > 0)
+            {
+                Taxi frontTaxi = TaxiSpace[0];
+                frontTaxi.AddFare(destination, agreedPrice);
+                taxiSpace.RemoveAt(0);
+                return frontTaxi;
+            }
+            return null;
+        }
     }
 
-    public Taxi FrontTaxiTakesFare(string destination, double agreedPrice)
-    {
-        if (TaxiSpace.Count > 0)
-        {
-            Taxi frontTaxi = TaxiSpace[0];
-            frontTaxi.AddFare(destination, agreedPrice);
-            TaxiSpace.RemoveAt(0);
-            return frontTaxi;
-        }
-        return null;
-    }
 }

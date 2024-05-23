@@ -20,3 +20,11 @@ C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiMan
 C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementAssignment\obj\Debug\net7.0\TaxiManagementAssignment.dll
 C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementAssignment\obj\Debug\net7.0\refint\TaxiManagementAssignment.dll
 C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementAssignment\obj\Debug\net7.0\TaxiManagementAssignment.pdb
+C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementAssignment\bin\Debug\net7.0\TaxiManagementAssignment.exe
+C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementAssignment\bin\Debug\net7.0\TaxiManagementAssignment.deps.json
+C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementAssignment\bin\Debug\net7.0\TaxiManagementAssignment.runtimeconfig.json
+C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementAssignment\bin\Debug\net7.0\TaxiManagementAssignment.dll
+C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementAssignment\bin\Debug\net7.0\TaxiManagementAssignment.pdb
+C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementAssignment\obj\Debug\net7.0\TaxiManagementAssignment.sourcelink.json
+C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementAssignment\obj\Debug\net7.0\TaxiManagementAssignment.genruntimeconfig.cache
+C:\Users\DELL\OneDrive - buv.edu.vn\year 1\sem2\TaxiManagementAssignment\TaxiManagementAssignment\TaxiManagementAssignment\obj\Debug\net7.0\ref\TaxiManagementAssignment.dll
