@@ -7,8 +7,9 @@ namespace TaxiManagementAssignment
         private Dictionary<int, Rank> ranks = new Dictionary<int, Rank>();
         public Dictionary<int, Rank> Ranks { get { return ranks; } }
 
-        public RankManager() {
-            ranks.Add(1,new Rank(1, 5));
+        public RankManager() 
+        {
+            ranks.Add(1, new Rank(1, 5));
             ranks.Add(2, new Rank(2, 2));
             ranks.Add(3, new Rank(3, 4));
         }
@@ -19,9 +20,7 @@ namespace TaxiManagementAssignment
             {
                 return ranks[id];
             }
-
                 return null;
-
         }
 
         public bool AddTaxiToRank(Taxi taxi, int rankId)

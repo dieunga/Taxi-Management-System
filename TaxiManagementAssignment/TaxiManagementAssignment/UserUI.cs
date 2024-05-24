@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using System.Linq; // Add this line to use LINQ methods
+using System.Linq;
 
 namespace TaxiManagementAssignment
 {
@@ -23,9 +23,11 @@ namespace TaxiManagementAssignment
             {
                 taxi.DropFare(pricePaid);
                 transactionMgr.RecordDrop(taxiNum, pricePaid);
-                return new List<string> { "Fare dropped successfully." };
+                string message = pricePaid ? $"Taxi {taxiNum} has dropped its fare and the price was paid."
+                                           : $"Taxi {taxiNum} has dropped its fare and the price was not paid.";
+                return new List<string> { message };
             }
-            return new List<string> { "Taxi not found or not on road or no destination." };
+            return new List<string> { $"Taxi {taxiNum} has not dropped its fare." };
         }
 
         public List<string> TaxiJoinsRank(int taxiNum, int rankId)
@@ -38,9 +40,9 @@ namespace TaxiManagementAssignment
             if (rankMgr.AddTaxiToRank(taxi, rankId))
             {
                 transactionMgr.RecordJoin(taxiNum, rankId);
-                return new List<string> { "Taxi joined rank successfully." };
+                return new List<string> { $"Taxi {taxiNum} has joined rank {rankId}." };
             }
-            return new List<string> { "Failed to join rank. Rank might be full." };
+            return new List<string> { $"Taxi {taxiNum} has not joined rank {rankId}." };
         }
 
         public List<string> TaxiLeavesRank(int rankId, string destination, double agreedPrice)
@@ -49,9 +51,9 @@ namespace TaxiManagementAssignment
             if (taxi != null)
             {
                 transactionMgr.RecordLeave(rankId, taxi);
-                return new List<string> { "Taxi left rank successfully." };
+                return new List<string> { $"Taxi {taxi.GetNumber()} has left rank {rankId} to take a fare to {destination} for £{agreedPrice:0.00}." };
             }
-            return new List<string> { "Failed to leave rank. Rank might be empty." };
+            return new List<string> { $"Taxi has not left rank {rankId}." };
         }
 
         public List<string> ViewFinancialReport()
@@ -78,5 +80,4 @@ namespace TaxiManagementAssignment
             return transactions.Select(t => t.ToString()).ToList();
         }
     }
-
 }
