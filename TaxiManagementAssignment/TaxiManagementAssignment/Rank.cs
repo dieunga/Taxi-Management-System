@@ -41,6 +41,8 @@ namespace TaxiManagementAssignment
             }
             return null;
         }
+
+        public int GetId() { return id;}
     }
 
 }

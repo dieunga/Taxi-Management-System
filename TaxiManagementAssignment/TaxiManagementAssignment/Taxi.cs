@@ -57,7 +57,6 @@ namespace TaxiManagementAssignment
             this.destination = destination;
             currentFare = agreedPrice;
             rank = null;
-
         }
 
         public void DropFare(bool priceWasPaid)

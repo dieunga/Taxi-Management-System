@@ -17,11 +17,14 @@ namespace TaxiManagementAssignment
             transactionType = type;
             transactionDatetime = dt;
         }
+        public DateTime GetTransactionDatetime() { return transactionDatetime; }
+        public string GetTransactionType() { return transactionType; }
 
         public override string ToString()
         {
             return $"{transactionType} at {transactionDatetime}";
         }
+        
     }
     public class JoinTransaction : Transaction
     {

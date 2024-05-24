@@ -7,34 +7,21 @@ namespace TaxiManagementAssignment
         private Dictionary<int, Rank> ranks = new Dictionary<int, Rank>();
         public Dictionary<int, Rank> Ranks { get { return ranks; } }
 
-        public RankManager() {}
+        public RankManager() {
+            ranks.Add(1,new Rank(1, 5));
+            ranks.Add(2, new Rank(2, 2));
+            ranks.Add(3, new Rank(3, 4));
+        }
 
-        public Rank FindRank(int id)
+            public Rank FindRank(int id)
         {
             if (ranks.ContainsKey(id))
             {
                 return ranks[id];
             }
-            else
-            {
-                Rank rank = null;
-                switch (id)
-                {
-                    case 1:
-                        rank = new Rank(id, 5);
-                        break;
-                    case 2:
-                        rank = new Rank(id, 2);
-                        break;
-                    case 3:
-                        rank = new Rank(id, 4);
-                        break;
-                    default: 
-                        return rank;
-                }
-                ranks.Add(id, rank);
-            }
-            return ranks[id];
+
+                return null;
+
         }
 
         public bool AddTaxiToRank(Taxi taxi, int rankId)
@@ -42,32 +29,30 @@ namespace TaxiManagementAssignment
 
             if (!string.IsNullOrEmpty(taxi.Destination))
             {
-                return false; // Taxi already has a destination set
+                return false; 
             }
 
-            // Check if the taxi already exists in any rank
             foreach (var rank in ranks.Values)
             {
                 if (rank.TaxiSpace.Contains(taxi))
                 {
-                    return false; // Taxi already exists in another rank
+                    return false; 
                 }
             }
 
             Rank rankToAdd = FindRank(rankId);
             if (rankToAdd != null)
             {
-                // Check if the taxi already exists in the rank
                 if (!rankToAdd.TaxiSpace.Contains(taxi))
                 {
                     return rankToAdd.AddTaxi(taxi);
                 }
                 else
                 {
-                    return false; // Taxi already exists in the rank
+                    return false; 
                 }
             }
-            return false; // Rank not found
+            return false; 
         }
 
         public Taxi FrontTaxiInRankTakesFare(int rankId, string destination, double agreedPrice)
