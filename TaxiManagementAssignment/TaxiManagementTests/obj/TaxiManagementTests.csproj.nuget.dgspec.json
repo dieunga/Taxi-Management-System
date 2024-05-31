@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\nga.nd\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj": {}
+    "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj": {}
   },
   "projects": {
-    "D:\\Users\\nga.nd\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj": {
+    "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\nga.nd\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj",
         "projectName": "TaxiManagementAssignment",
-        "projectPath": "D:\\Users\\nga.nd\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj",
-        "packagesPath": "D:\\Users\\nga.nd\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\nga.nd\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "D:\\Users\\nga.nd\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -59,25 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Users\\nga.nd\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj": {
+    "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\nga.nd\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj",
         "projectName": "TaxiManagementTests",
-        "projectPath": "D:\\Users\\nga.nd\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj",
-        "packagesPath": "D:\\Users\\nga.nd\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\nga.nd\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\TaxiManagementTests.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementTests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "D:\\Users\\nga.nd\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,8 +88,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Users\\nga.nd\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj": {
-                "projectPath": "D:\\Users\\nga.nd\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj"
+              "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj": {
+                "projectPath": "C:\\Users\\DELL\\OneDrive - buv.edu.vn\\year 1\\sem2\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment\\TaxiManagementAssignment.csproj"
               }
             }
           }
@@ -101,6 +98,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -140,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

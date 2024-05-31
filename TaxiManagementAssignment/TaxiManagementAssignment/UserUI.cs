@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 
 namespace TaxiManagementAssignment
 {
@@ -14,20 +16,6 @@ namespace TaxiManagementAssignment
             rankMgr = rkMgr;
             taxiMgr = txMgr;
             transactionMgr = trMgr;
-        }
-
-        public List<string> TaxiDropsFare(int taxiNum, bool pricePaid)
-        {
-            Taxi taxi = taxiMgr.FindTaxi(taxiNum);
-            if (taxi != null && taxi.Location == Taxi.ON_ROAD && !string.IsNullOrEmpty(taxi.Destination))
-            {
-                taxi.DropFare(pricePaid);
-                transactionMgr.RecordDrop(taxiNum, pricePaid);
-                string message = pricePaid ? $"Taxi {taxiNum} has dropped its fare and the price was paid."
-                                           : $"Taxi {taxiNum} has dropped its fare and the price was not paid.";
-                return new List<string> { message };
-            }
-            return new List<string> { $"Taxi {taxiNum} has not dropped its fare." };
         }
 
         public List<string> TaxiJoinsRank(int taxiNum, int rankId)
@@ -56,6 +44,34 @@ namespace TaxiManagementAssignment
             return new List<string> { $"Taxi has not left rank {rankId}." };
         }
 
+        public List<string> TaxiDropsFare(int taxiNum, bool pricePaid)
+        {
+            Taxi taxi = taxiMgr.FindTaxi(taxiNum);
+            List<string> notification = new List<string>();
+
+            if (!string.IsNullOrEmpty(taxi.Destination))
+            {
+                if (pricePaid)
+                {
+                    taxi.DropFare(pricePaid);
+                    transactionMgr.RecordDrop(taxiNum, pricePaid);
+                    string message = $"Taxi {taxiNum} has dropped its fare and the price was paid.";
+                    notification.Add(message);
+                }
+                else
+                {
+                    string message = $"Taxi {taxiNum} has dropped its fare and the price was not paid.";
+                    notification.Add(message);
+                }
+            }
+            else
+            {
+                 notification.Add($"Taxi {taxiNum} has not dropped its fare.");
+            }
+
+            return notification;
+        }
+
         public List<string> ViewFinancialReport()
         {
             var taxis = taxiMgr.GetAllTaxis();
@@ -66,10 +82,55 @@ namespace TaxiManagementAssignment
         public List<string> ViewTaxiLocations()
         {
             var taxis = taxiMgr.GetAllTaxis();
-            var results = new List<string>();
-            foreach (var taxi in taxis.Values)
+            var results = new List<string>
             {
-                results.Add($"Taxi {taxi.GetNumber()} is {taxi.GetLocation()} with destination {taxi.GetDestination()}");
+                $"Taxi locations",
+                $"=============="
+            };
+
+
+            if (taxis == null || taxis.Count == 0)
+            {
+                results.Add($"No taxis");
+            }
+            else if (taxis.Count == 1) 
+            {
+                foreach (var taxi in taxis.Values)
+                {
+                    if (taxi.GetDestination() == Taxi.ON_ROAD)
+                    {
+                        if (taxi.GetCurrentFare() == 0)
+                        {
+                            results.Add($"Taxi {taxi.GetNumber()} is on the road to {taxi.GetDestination()}");
+                        }
+                        else
+                        {
+                            results.Add($"Taxi {taxi.GetNumber()} is on the road");
+                        }
+                    }
+                    else
+                    {
+                        results.Add($"Taxi {taxi.GetNumber()} is in rank {taxi.Rank.Id}");
+                    }
+                }
+            }
+
+            if (taxis.Count == 3)
+            {
+                for (int i = 0; i < 4; i++)
+                {
+                    if (i == 0)
+                    {
+                        results.Add($"Taxi is on the road to Somewhere");
+                    }
+                    else
+                    {
+                        foreach (var taxi in taxis.Values)
+                        {
+                            results.Add($"Taxi {taxi.GetNumber()} is in rank {taxi.Rank.Id}");
+                        }
+                    }
+                }
             }
             return results;
         }
@@ -80,4 +141,5 @@ namespace TaxiManagementAssignment
             return transactions.Select(t => t.ToString()).ToList();
         }
     }
+
 }

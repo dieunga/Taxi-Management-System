@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using System.Collections.Generic;
 using TaxiManagementAssignment;
 
@@ -194,7 +195,7 @@ namespace TaxiManagementTests
         }
 
         [TestMethod]
-        public void _13_TaxiDropsFareReturnsCorrectMessageWhenTaxiDropsFareAndPriceWasPaid()
+            public void _13_TaxiDropsFareReturnsCorrectMessageWhenTaxiDropsFareAndPriceWasPaid()
         {
             RankManager rm = new RankManager();
             TaxiManager txm = new TaxiManager();
@@ -260,161 +261,161 @@ namespace TaxiManagementTests
             Assert.AreEqual(1, trm.GetAllTransactions().Count);
         }
 
-        //        [TestMethod]
-        //        public void _17_ViewTaxiLocationsReturnsCorrectStringsWhenThereAreNoTaxis()
-        //        {
-        //            RankManager rm = new RankManager();
-        //            TaxiManager txm = new TaxiManager();
-        //            TransactionManager trm = new TransactionManager();
-        //            UserUI ui = new UserUI(rm, txm, trm);
+        [TestMethod]
+        public void _17_ViewTaxiLocationsReturnsCorrectStringsWhenThereAreNoTaxis()
+        {
+            RankManager rm = new RankManager();
+            TaxiManager txm = new TaxiManager();
+            TransactionManager trm = new TransactionManager();
+            UserUI ui = new UserUI(rm, txm, trm);
 
-        //            List<string> expectedLines = new List<string>();
-        //            expectedLines.Add("Taxi locations");
-        //            expectedLines.Add("==============");
-        //            expectedLines.Add("No taxis");
+            List<string> expectedLines = new List<string>();
+            expectedLines.Add("Taxi locations");
+            expectedLines.Add("==============");
+            expectedLines.Add("No taxis");
 
-        //            foreach (string s in expectedLines)
-        //            {
-        //                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
-        //            }
+            foreach (string s in expectedLines)
+            {
+                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
+            }
 
-        //            foreach (string s in ui.ViewTaxiLocations())
-        //            {
-        //                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
-        //            }
+            foreach (string s in ui.ViewTaxiLocations())
+            {
+                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
+            }
 
-        //            CollectionAssert.AreEqual(
-        //                expectedLines,
-        //                ui.ViewTaxiLocations());
-        //        }
+            CollectionAssert.AreEqual(
+                expectedLines,
+                ui.ViewTaxiLocations());
+        }
 
-        //        [TestMethod]
-        //        public void _18_ViewTaxiLocationsReturnsCorrectStringsWhenThereIsOneTaxiInRank()
-        //        {
-        //            RankManager rm = new RankManager();
-        //            TaxiManager txm = new TaxiManager();
-        //            TransactionManager trm = new TransactionManager();
-        //            UserUI ui = new UserUI(rm, txm, trm);
+        [TestMethod]
+        public void _18_ViewTaxiLocationsReturnsCorrectStringsWhenThereIsOneTaxiInRank()
+        {
+            RankManager rm = new RankManager();
+            TaxiManager txm = new TaxiManager();
+            TransactionManager trm = new TransactionManager();
+            UserUI ui = new UserUI(rm, txm, trm);
 
-        //            ui.TaxiJoinsRank(12, 1);
+            ui.TaxiJoinsRank(12, 1);
 
-        //            List<string> expectedLines = new List<string>();
-        //            expectedLines.Add("Taxi locations");
-        //            expectedLines.Add("==============");
-        //            expectedLines.Add("Taxi 12 is in rank 1");
+            List<string> expectedLines = new List<string>();
+            expectedLines.Add("Taxi locations");
+            expectedLines.Add("==============");
+            expectedLines.Add("Taxi 12 is in rank 1");
 
-        //            foreach (string s in expectedLines)
-        //            {
-        //                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
-        //            }
+            foreach (string s in expectedLines)
+            {
+                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
+            }
 
-        //            foreach (string s in ui.ViewTaxiLocations())
-        //            {
-        //                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
-        //            }
+            foreach (string s in ui.ViewTaxiLocations())
+            {
+                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
+            }
 
-        //            CollectionAssert.AreEqual(
-        //                expectedLines,
-        //                ui.ViewTaxiLocations());
-        //        }
+            CollectionAssert.AreEqual(
+                expectedLines,
+                ui.ViewTaxiLocations());
+        }
 
-        //        [TestMethod]
-        //        public void _19_ViewTaxiLocationsReturnsCorrectStringsWhenThereIsOneTaxiOnRoadToDestination()
-        //        {
-        //            RankManager rm = new RankManager();
-        //            TaxiManager txm = new TaxiManager();
-        //            TransactionManager trm = new TransactionManager();
-        //            UserUI ui = new UserUI(rm, txm, trm);
+        [TestMethod]
+        public void _19_ViewTaxiLocationsReturnsCorrectStringsWhenThereIsOneTaxiOnRoadToDestination()
+        {
+            RankManager rm = new RankManager();
+            TaxiManager txm = new TaxiManager();
+            TransactionManager trm = new TransactionManager();
+            UserUI ui = new UserUI(rm, txm, trm);
 
-        //            ui.TaxiJoinsRank(12, 1);
-        //            ui.TaxiLeavesRank(1, "Somewhere", 1.23);
+            ui.TaxiJoinsRank(12, 1);
+            ui.TaxiLeavesRank(1, "Somewhere", 1.23);
 
-        //            List<string> expectedLines = new List<string>();
-        //            expectedLines.Add("Taxi locations");
-        //            expectedLines.Add("==============");
-        //            expectedLines.Add("Taxi 12 is on the road to Somewhere");
+            List<string> expectedLines = new List<string>();
+            expectedLines.Add("Taxi locations");
+            expectedLines.Add("==============");
+            expectedLines.Add("Taxi 12 is on the road to Somewhere");
 
-        //            foreach (string s in expectedLines)
-        //            {
-        //                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
-        //            }
+            foreach (string s in expectedLines)
+            {
+                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
+            }
 
-        //            foreach (string s in ui.ViewTaxiLocations())
-        //            {
-        //                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
-        //            }
+            foreach (string s in ui.ViewTaxiLocations())
+            {
+                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
+            }
 
-        //            CollectionAssert.AreEqual(
-        //                expectedLines,
-        //                ui.ViewTaxiLocations());
-        //        }
+            CollectionAssert.AreEqual(
+                expectedLines,
+                ui.ViewTaxiLocations());
+        }
 
-        //        [TestMethod]
-        //        public void _20_ViewTaxiLocationsReturnsCorrectStringsWhenThereIsOneTaxiOnRoadAfterDroppingFare()
-        //        {
-        //            RankManager rm = new RankManager();
-        //            TaxiManager txm = new TaxiManager();
-        //            TransactionManager trm = new TransactionManager();
-        //            UserUI ui = new UserUI(rm, txm, trm);
+        [TestMethod]
+        public void _20_ViewTaxiLocationsReturnsCorrectStringsWhenThereIsOneTaxiOnRoadAfterDroppingFare()
+        {
+            RankManager rm = new RankManager();
+            TaxiManager txm = new TaxiManager();
+            TransactionManager trm = new TransactionManager();
+            UserUI ui = new UserUI(rm, txm, trm);
 
-        //            ui.TaxiJoinsRank(12, 1);
-        //            ui.TaxiLeavesRank(1, "Somewhere", 1.23);
-        //            ui.TaxiDropsFare(12, true);
+            ui.TaxiJoinsRank(12, 1);
+            ui.TaxiLeavesRank(1, "Somewhere", 1.23);
+            ui.TaxiDropsFare(12, true);
 
-        //            List<string> expectedLines = new List<string>();
-        //            expectedLines.Add("Taxi locations");
-        //            expectedLines.Add("==============");
-        //            expectedLines.Add("Taxi 12 is on the road");
+            List<string> expectedLines = new List<string>();
+            expectedLines.Add("Taxi locations");
+            expectedLines.Add("==============");
+            expectedLines.Add("Taxi 12 is on the road");
 
-        //            foreach (string s in expectedLines)
-        //            {
-        //                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
-        //            }
+            foreach (string s in expectedLines)
+            {
+                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
+            }
 
-        //            foreach (string s in ui.ViewTaxiLocations())
-        //            {
-        //                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
-        //            }
+            foreach (string s in ui.ViewTaxiLocations())
+            {
+                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
+            }
 
-        //            CollectionAssert.AreEqual(
-        //                expectedLines,
-        //                ui.ViewTaxiLocations());
-        //        }
+            CollectionAssert.AreEqual(
+                expectedLines,
+                ui.ViewTaxiLocations());
+        }
 
-        //        [TestMethod]
-        //        public void _21_ViewTaxiLocationsReturnsCorrectStringsWhenThereAreThreeTaxis()
-        //        {
-        //            RankManager rm = new RankManager();
-        //            TaxiManager txm = new TaxiManager();
-        //            TransactionManager trm = new TransactionManager();
-        //            UserUI ui = new UserUI(rm, txm, trm);
+        [TestMethod]
+        public void _21_ViewTaxiLocationsReturnsCorrectStringsWhenThereAreThreeTaxis()
+        {
+            RankManager rm = new RankManager();
+            TaxiManager txm = new TaxiManager();
+            TransactionManager trm = new TransactionManager();
+            UserUI ui = new UserUI(rm, txm, trm);
 
-        //            ui.TaxiJoinsRank(12, 1);
-        //            ui.TaxiLeavesRank(1, "Somewhere", 1.23);
-        //            ui.TaxiJoinsRank(13, 1);
-        //            ui.TaxiJoinsRank(14, 2);
+            ui.TaxiJoinsRank(12, 1);
+            ui.TaxiLeavesRank(1, "Somewhere", 1.23);
+            ui.TaxiJoinsRank(13, 1);
+            ui.TaxiJoinsRank(14, 2);
 
-        //            List<string> expectedLines = new List<string>();
-        //            expectedLines.Add("Taxi locations");
-        //            expectedLines.Add("==============");
-        //            expectedLines.Add("Taxi 12 is on the road to Somewhere");
-        //            expectedLines.Add("Taxi 13 is in rank 1");
-        //            expectedLines.Add("Taxi 14 is in rank 2");
+            List<string> expectedLines = new List<string>();
+            expectedLines.Add("Taxi locations");
+            expectedLines.Add("==============");
+            expectedLines.Add("Taxi 12 is on the road to Somewhere");
+            expectedLines.Add("Taxi 13 is in rank 1");
+            expectedLines.Add("Taxi 14 is in rank 2");
 
-        //            foreach (string s in expectedLines)
-        //            {
-        //                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
-        //            }
+            foreach (string s in expectedLines)
+            {
+                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
+            }
 
-        //            foreach (string s in ui.ViewTaxiLocations())
-        //            {
-        //                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
-        //            }
+            foreach (string s in ui.ViewTaxiLocations())
+            {
+                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
+            }
 
-        //            CollectionAssert.AreEqual(
-        //                expectedLines,
-        //                ui.ViewTaxiLocations());
-        //        }
+            CollectionAssert.AreEqual(
+                expectedLines,
+                ui.ViewTaxiLocations());
+        }
 
         //        [TestMethod]
         //        public void _22_ViewFinancialReportReturnsCorrectStringsWhenThereAreNoTaxis()
