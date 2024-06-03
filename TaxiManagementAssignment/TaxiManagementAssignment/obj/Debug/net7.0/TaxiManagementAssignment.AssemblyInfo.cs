@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaxiManagementAssignment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9186194aecdc865c0d4d6858ed997ebf8c0dabda")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaxiManagementAssignment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaxiManagementAssignment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

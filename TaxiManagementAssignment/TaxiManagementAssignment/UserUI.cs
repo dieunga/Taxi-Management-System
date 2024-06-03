@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Runtime.CompilerServices;
 
 namespace TaxiManagementAssignment
@@ -91,54 +92,53 @@ namespace TaxiManagementAssignment
 
             if (taxis == null || taxis.Count == 0)
             {
-                results.Add($"No taxis");
+                results.Add("No taxis");
+
             }
-            else if (taxis.Count == 1) 
+            else 
             {
                 foreach (var taxi in taxis.Values)
                 {
-                    if (taxi.GetDestination() == Taxi.ON_ROAD)
+                    if (taxi.Destination != "")
                     {
-                        if (taxi.GetCurrentFare() == 0)
-                        {
-                            results.Add($"Taxi {taxi.GetNumber()} is on the road to {taxi.GetDestination()}");
-                        }
-                        else
+                        results.Add($"Taxi {taxi.GetNumber()} is on the road to {taxi.GetDestination()}");
+                    }
+                    else
+                    {
+                        if (taxi.Location == Taxi.ON_ROAD)
                         {
                             results.Add($"Taxi {taxi.GetNumber()} is on the road");
                         }
-                    }
-                    else
-                    {
-                        results.Add($"Taxi {taxi.GetNumber()} is in rank {taxi.Rank.Id}");
-                    }
-                }
-            }
-
-            if (taxis.Count == 3)
-            {
-                for (int i = 0; i < 4; i++)
-                {
-                    if (i == 0)
-                    {
-                        results.Add($"Taxi is on the road to Somewhere");
-                    }
-                    else
-                    {
-                        foreach (var taxi in taxis.Values)
+                        else
                         {
                             results.Add($"Taxi {taxi.GetNumber()} is in rank {taxi.Rank.Id}");
                         }
                     }
                 }
+
             }
+            
+
             return results;
         }
 
         public List<string> ViewTransactionLog()
         {
             var transactions = transactionMgr.GetAllTransactions();
-            return transactions.Select(t => t.ToString()).ToList();
+            var taxis = taxiMgr.GetAllTaxis();
+            var results = new List<string>
+            {
+                $"Financial report",
+                $"================"
+            };
+
+            if (taxis == null || taxis.Count == 0)
+            {
+                results.Add("No taxis, so no money taken");
+
+            }
+
+            return results;
         }
     }
 

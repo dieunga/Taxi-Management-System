@@ -56,6 +56,7 @@ namespace TaxiManagementAssignment
         {
             this.destination = destination;
             currentFare = agreedPrice;
+            location = ON_ROAD;
             rank = null;
         }
 
