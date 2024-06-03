@@ -430,10 +430,10 @@ namespace TaxiManagementTests
             expectedLines.Add("================");
             expectedLines.Add("No taxis, so no money taken");
 
-            foreach (string s in expectedLines)
-            {
-                Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
-            }
+            //foreach (string s in expectedLines)
+            //{
+            //    Console.WriteLine("'" + s + "' (" + s.Length + ")\n");
+            //}
 
             foreach (string s in ui.ViewFinancialReport())
             {

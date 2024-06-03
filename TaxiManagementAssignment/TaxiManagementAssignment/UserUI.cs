@@ -76,8 +76,19 @@ namespace TaxiManagementAssignment
         public List<string> ViewFinancialReport()
         {
             var taxis = taxiMgr.GetAllTaxis();
-            double total = taxis.Values.Sum(t => t.GetTotalMoneyPaid());
-            return new List<string> { $"Total money paid to all taxis: {total}" };
+            var results = new List<string>
+            {
+                "Financial report",
+                "================"
+            };
+
+            if (taxis == null || taxis.Count == 0)
+            {
+                results.Add("No taxis, so no money taken");
+
+            }
+
+            return results;
         }
 
         public List<string> ViewTaxiLocations()
@@ -125,18 +136,9 @@ namespace TaxiManagementAssignment
         public List<string> ViewTransactionLog()
         {
             var transactions = transactionMgr.GetAllTransactions();
-            var taxis = taxiMgr.GetAllTaxis();
-            var results = new List<string>
-            {
-                $"Financial report",
-                $"================"
-            };
+            var results = new List<string> { };
 
-            if (taxis == null || taxis.Count == 0)
-            {
-                results.Add("No taxis, so no money taken");
 
-            }
 
             return results;
         }
