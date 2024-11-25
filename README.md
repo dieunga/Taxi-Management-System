@@ -28,8 +28,8 @@ This project is a comprehensive Taxi Management System designed to facilitate ta
    pip install -r requirements.txt
     ```
 7. Set up the database:
-  - Configure the database connection in the project settings.
-  - Run migrations to initialize the database schema.
+      - Configure the database connection in the project settings.
+      - Run migrations to initialize the database schema.
       ```
     python manage.py migrate
       ```
@@ -38,3 +38,15 @@ This project is a comprehensive Taxi Management System designed to facilitate ta
    python manage.py runserver
     ```
 7. Access the application in your browser at ```http://127.0.0.1:8000```.
+
+## Usage
+1. Admin Dashboard:
+    - Login with admin credentials.
+    - Manage customers, drivers, and bookings from the dashboard.
+2. Booking Management:
+    - Add, update, or delete bookings.
+    - View ride history and track active rides.
+3. Driver Management:
+    - Add or modify driver details.
+    - Monitor driver performance and availability.
+
